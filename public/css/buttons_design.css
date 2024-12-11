@@ -1,0 +1,707 @@
+.button-s1 {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #ff7e31, #e62c03);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Nunito-Bold;
+    height: 30px;
+    line-height: 30px;
+    outline: 0;
+    margin-top: 2px;
+    overflow: hidden;
+    padding: 0 5px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 70px;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow 0.2s;
+}
+
+.button-s1:hover {
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+.button-s2 {
+    align-items: center;
+    background-color: #0a66c2;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Nunito-Bold;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+        box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+        color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+
+.button-s2:hover,
+.button-s2:focus {
+    background-color: #16437e;
+    color: #ffffff;
+}
+
+.button-s2:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+.button-s2:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, 0.08);
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.button-s3 {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #62b5f8, #002e5d);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Nunito-Bold;
+    height: 30px;
+    line-height: 30px;
+    outline: 0;
+    margin-left: 2px;
+    margin-top: 2px;
+    overflow: hidden;
+    padding: 0 5px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 70px;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow 0.2s;
+}
+
+.button-s3:hover {
+    box-shadow: rgba(4, 203, 253, 0.5) 0 3px 8px;
+    color: #1cb0f6;
+}
+
+/* CSS */
+.button-s4 {
+    appearance: button;
+    background-color: #1899d6;
+    border: solid transparent;
+    border-radius: 14px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Nunito-Bold;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 20px;
+    margin: 3;
+    outline: none;
+    overflow: visible;
+    /* padding: 13px 16px; */
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter 0.2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    height: 30px;
+}
+
+.button-s4:after {
+    background-clip: padding-box;
+    background-color: #1cb0f6;
+    border: solid transparent;
+    border-radius: 14px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.button-s4:main,
+.button-s4:focus {
+    user-select: auto;
+}
+
+.button-s4:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+}
+
+.button-s4:disabled {
+    cursor: auto;
+}
+
+/* CSS */
+.button-s5 {
+    appearance: button;
+    background-color: #444647;
+    border: solid transparent;
+    border-radius: 14px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Nunito-Bold;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 20px;
+    margin: 3;
+    outline: none;
+    overflow: visible;
+    /* padding: 13px 16px; */
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter 0.2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    height: 30px;
+}
+
+.button-s5:after {
+    background-clip: padding-box;
+    background-color: #868a8b;
+    border: solid transparent;
+    border-radius: 14px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.button-s5:main,
+.button-s5:focus {
+    user-select: auto;
+}
+
+.button-s5:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+}
+
+.button-s5:disabled {
+    cursor: auto;
+}
+
+/* CSS */
+.button-s6 {
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+        rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+        rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+        rgba(44, 187, 99, 0.15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Nunito-Bold;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.button-s6:hover {
+    box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+        rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+        rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+        rgba(44, 187, 99, 0.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+/* CSS */
+.button-s7 {
+    align-items: center;
+    background: linear-gradient(
+        90deg,
+        rgba(2, 182, 200, 1) 0%,
+        rgba(95, 187, 196, 1) 30%,
+        rgba(95, 133, 196, 1) 100%
+    );
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    /* font-family: Nunito-Bold; */
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    min-width: 30px;
+    padding: 10px 15px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.button-s7:active,
+.button-s7:hover {
+    outline: 1em;
+    box-shadow: rgba(140, 2, 131, 0.2) 0 15px 30px -5px;
+}
+
+@media (min-width: 768px) {
+    .button-s7 {
+        font-size: 20px;
+        min-width: 100px;
+    }
+}
+
+.button-s8 {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #00044f, #022d49);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    /* font-family: Nunito-Bold; */
+    height: 30px;
+    line-height: 30px;
+    outline: 0;
+    margin-top: 2px;
+    overflow: hidden;
+    padding: 0 5px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 70px;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow 0.2s;
+}
+
+.button-s8:hover {
+    box-shadow: rgba(0, 253, 215, 0.5) 0 3px 8px;
+}
+
+/* CSS */
+.button-s9 {
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+        rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+        rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+        rgba(44, 187, 99, 0.15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    /* font-family: Nunito-Bold; */
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 130px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.button-s9:hover {
+    box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+        rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+        rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+        rgba(44, 187, 99, 0.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
+
+.button-s10 {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #ebe6e3, #444140);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #ffffff;
+    cursor: not-allowed;
+    display: inline-block;
+    font-family: Nunito-Bold;
+    height: 30px;
+    line-height: 30px;
+    outline: 0;
+    margin-top: 2px;
+    overflow: hidden;
+    padding: 0 5px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 70px;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow 0.2s;
+}
+
+.button-s10:hover {
+    box-shadow: rgba(250, 248, 247, 0.5) 0 3px 8px;
+}
+
+.button-s11 {
+    background-color: #5f85c4;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Nunito-Bold;
+    height: 30px;
+    line-height: 30px;
+    outline: 0;
+    margin-top: 2px;
+    overflow: hidden;
+    padding: 0 5px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 70px;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow 0.2s;
+}
+
+.button-s11:hover {
+    box-shadow: #35004d;
+    color: #210030;
+}
+
+.button-s12 {
+    background-color: #203864;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Nunito-Bold;
+    height: 30px;
+    line-height: 30px;
+    outline: 0;
+    margin-top: 2px;
+    overflow: hidden;
+    padding: 0 5px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 70px;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow 0.2s;
+}
+
+.button-s12:hover {
+    box-shadow: #012f3d;
+    color: #5fa1b5;
+}
+.button-s13 {
+    background-color: #721010;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Nunito-Bold;
+    height: 30px;
+    line-height: 30px;
+    outline: 0;
+    margin-top: 2px;
+    overflow: hidden;
+    padding: 0 5px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 70px;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow 0.2s;
+}
+
+.button-s13:hover {
+    box-shadow: #730131;
+    color: #ff9fc7;
+}
+
+.button-s14 {
+    background-color: #019601;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Nunito-Bold;
+    height: 30px;
+    line-height: 30px;
+    outline: 0;
+    margin-top: 2px;
+    overflow: hidden;
+    padding: 0 5px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 70px;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow 0.2s;
+}
+
+.button-s14:hover {
+    box-shadow: #003104;
+    color: #cef104;
+}
+.button-s15 {
+    background-color: #c7c7c7;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #212121;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Nunito-Bold;
+    height: 30px;
+    line-height: 30px;
+    outline: 0;
+    margin-top: 2px;
+    overflow: hidden;
+    padding: 0 5px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 70px;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow 0.2s;
+}
+
+.button-s15:hover {
+    box-shadow: #222322;
+    color: #750404;
+}
+
+.upNDown {
+    margin-left: 5px;
+}
+
+.button-s16 {
+    background-color: #721010;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Nunito-Bold;
+    height: 30px;
+    line-height: 30px;
+    outline: 0;
+    margin-left: 2px;
+    margin-top: 2px;
+    overflow: hidden;
+    padding: 0 5px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 70px;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow 0.2s;
+}
+
+.button-s16:hover {
+    box-shadow: rgba(79, 25, 1, 0.5) 0 3px 8px;
+    color: rgb(255, 235, 136);
+}
+.button-s17 {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #62b5f8, #002e5d);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Nunito-Bold;
+    height: 30px;
+    line-height: 30px;
+    outline: 0;
+    margin-left: 2px;
+    margin-top: 2px;
+    overflow: hidden;
+    padding: 0 5px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 70px;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow 0.2s;
+}
+
+.button-s17:hover {
+    box-shadow: rgba(4, 203, 253, 0.5) 0 3px 8px;
+    color: #1cb0f6;
+}
+.button-s18 {
+    background-color: gray;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #dbdbdb;
+    cursor: not-allowed! important;
+    display: inline-block;
+    font-family: Nunito-Bold;
+    height: 30px;
+    line-height: 30px;
+    outline: 0;
+    margin-left: 2px;
+    margin-top: 2px;
+    overflow: hidden;
+    padding: 0 5px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 70px;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow 0.2s;
+}
+
+.button-s19 {
+    background-color: #fff000;
+    border-radius: 12px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 200ms;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-s19:not(:disabled):hover,
+.button-s19:not(:disabled):focus {
+    outline: 0;
+    background: #f4e603;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, .2), 0 3px 8px 0 rgba(0, 0, 0, .15);
+}
+
+.button-s19:disabled {
+    filter: saturate(0.2) opacity(0.5);
+    -webkit-filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
+}
